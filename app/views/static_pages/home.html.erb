@@ -1,27 +1,29 @@
-<div class='jumbotron'>
-<h1>Welcome to Pierce Poetry</h1>
-<h2><font face='cursive'> A Collection of Poems to Pass The Time </font></h2>
+<center>
+
+
+<img src="http://fc07.deviantart.net/fs50/i/2009/269/c/4/Beach_Life_by_matchmike.jpg" alt="some_text"  style="border">
+
+</center>
+
+
+<div class='container'>
+<center><h3>Poems By Year</h3>
+<font face='cursive'>
+
+    <div class='btn-group'>
+      <%= link_to '2009', poems_2009_path ,
+        class: 'btn btn-default btn-lg', role: 'button' %>
+      <%= link_to '2011', poems_2011_path,
+        class: 'btn btn-default btn-lg', role: 'button' %>
+      <%= link_to '2012', poems_2012_path,
+        class: 'btn btn-default btn-lg', role: 'button' %>
+      <%= link_to '2013', poems_2013_path,
+        class: 'btn btn-default btn-lg', role: 'button' %>
+    </div>
+</font>
+
+
+
 </div>
 
-<br><br>
 
-<h4> Poems by year </h4>
-
-<br>
-
-<center>
-  <div class='row'>
-    <div class='col-md-3'>
-      <button type="button" class="btn btn-default">2009</button>
-    </div>
-    <div class='col-md-3'>
-      <button type="button" class="btn btn-default">2011</button>
-    </div>
-    <div class='col-md-3'>
-      <button type="button" class="btn btn-default">2012</button>
-    </div>
-    <div class='col-md-3'>
-      <button type="button" class="btn btn-default">2013</button>
-    </div>
-  </div>
-</center>

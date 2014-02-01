@@ -4,6 +4,9 @@ AllenPoetry::Application.routes.draw do
   match '/poems/2009', to: 'static_pages#year2009',    via: 'get'
   match '/poems/2011', to: 'static_pages#year2011',    via: 'get'
   match '/poems/2012', to: 'static_pages#year2012',    via: 'get'
+  match '/poems/2013', to: 'static_pages#year2013',    via: 'get'
+  match '/about', to: 'static_pages#about',    via: 'get'
+  match '/contact', to: 'static_pages#contact',    via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

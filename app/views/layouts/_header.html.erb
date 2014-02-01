@@ -1,4 +1,4 @@
-<div class = 'navbar navbar-inverse navbar-static-top'>
+<div class = 'navbar transparent navbar-inverse navbar-static-top'>
   <div class = 'container'>
     <button class = 'navbar-toggle' data-toggle = 'collapse'
     data-target = '.navHeaderCollapse'>
@@ -6,18 +6,26 @@
       <span class = 'icon-bar'></span>
       <span class = 'icon-bar'></span>
     </button>
+
+      <%= link_to 'Pierce Poetry', root_path, id: 'logo' %>
+
     <div class = 'collapse navbar-collapse navHeaderCollapse'>
+
       <ul class = 'nav navbar-nav navbar-right' >
+
         <li>
-          <%= link_to 'Poems', '#' %>
+          <%= link_to '', about_path %>
         </li>
         <li>
-          <%= link_to 'About Me',  '#' %>
-        </li>
-        <li>
-          <%= link_to 'Contact',  '#' %>
+          <%= link_to '', contact_path %>
         </li>
       </ul>
     </div>
-  </div>
+
+
+<div class="container">
+  <h1 style="color:#FFFFFF;"><font face='cursive'> A Collection of Poems to Pass The Time </font></h1>
+</div>
+</div>
+</div>
 </div>

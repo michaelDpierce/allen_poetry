@@ -18,4 +18,7 @@ class StaticPagesController < ApplicationController
   def year2012
   end
 
+  def year2013
+  end
+
 end

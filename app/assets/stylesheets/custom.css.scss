@@ -71,7 +71,7 @@ P {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 12px;
@@ -224,21 +224,4 @@ legend{
       border-bottom: 1px solid $lightgrey;
     }
   }
-}
-
-.glyphicon-2x {
-  font-size: 24px;
-}
-
-.table-borderless td,
-.table-borderless th {
-    border: 0;
-}
-
-#fixtablewidth {
-  width: 25%;
-}
-
-.fixtablewidthadmin {
-  width: 80%;
 }
