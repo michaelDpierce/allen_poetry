@@ -11,14 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140131002532) do
-
-  create_table "poems", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "title"
-    t.date     "date_stamp"
-    t.text     "poem_content"
-  end
+ActiveRecord::Schema.define(version: 20140201001528) do
 
 end
