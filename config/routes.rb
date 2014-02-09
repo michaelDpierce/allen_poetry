@@ -5,6 +5,7 @@ AllenPoetry::Application.routes.draw do
   match '/poems/2011', to: 'static_pages#year2011',    via: 'get'
   match '/poems/2012', to: 'static_pages#year2012',    via: 'get'
   match '/poems/2013', to: 'static_pages#year2013',    via: 'get'
+  match '/poems/2014', to: 'static_pages#year2014',    via: 'get'
   match '/about', to: 'static_pages#about',    via: 'get'
   match '/contact', to: 'static_pages#contact',    via: 'get'
 
